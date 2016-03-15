@@ -8,16 +8,24 @@
     
     <title>Risk Manager</title>
 
-    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+    <!-- <link rel="apple-touch-icon" href="touch-icon-iphone.png">
     <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png"> -->
+    <link href = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel = 'stylesheet' type="text/css" media = 'screen'>
     
     <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/app.css" />
 </head>
 <body ng-swipe-left="goLeft()" ng-swipe-right="goRight()" ng-controller="NavigationCtrl">
-    <h1>Risk Manager</h1>
+    <nav class="navbar navbar-inverse" role="navigation" >
+        <a class="navbar-brand" >Risk Management</a>
+        <ul class="nav navbar-nav navbar-right"></ul>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/add-expense"> Manage Risk </a></li>
+      <li><a href="#/view-summary"> View Summary </a></li>
+    </ul>
+  </nav>
     
       <img class="bg-image" src="http://lorempixel.com/1024/768/business/">
   

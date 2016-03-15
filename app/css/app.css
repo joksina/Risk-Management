@@ -15,7 +15,7 @@ z-index: -1;
 background: #333;
 opacity: 0.3;
 }
-h1 {
+.navbar-brand {
 font-size: 2.5em;
 font-weight: 100;
 margin-left: 5%;
@@ -100,8 +100,8 @@ width:40%;
 .page-slide {
 padding: 2% ;
 position: absolute;
-width: 85% ;
-min-height: 90% ;
+width: 70% ;
+min-height: 50% ;
 opacity: 0.8;
 background: #222;
 border: thin solid #111;
