@@ -3,6 +3,12 @@
 <div id="summary">
   <h2>Risk Summary</h2>
   <div bar-chart data='summaryData' ></div>
+
+  <canvas id="doughnut" class="chart chart-doughnut"
+      chart-data="data" chart-labels="assets" chart-legend="true" width="300" height="100">
+      </canvas> 
+    <md-slider style="margin-left: 5%; margin-right:10%" id='red-slider'ng-change="moveChart()" flex md-discrete ng-model="rating" step="1" min="0" max="10" aria-label="rating"> </md-slider>
+    </div>
 </div>
 
 <div id="details">
